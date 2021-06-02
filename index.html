@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4AMPr Cadena Chacha Omar Ramiro</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="funciones.js"></script>
+</head>
+<body onload="inicio()">
+    <center>
+
+    <h1>Juego del gato (Jugador vs Jugador)</h1>
+        <h2>Jugador 1: X   ||  Jugador 2: O</h2>
+    <div class="botones">
+        <button onclick="gato('bt1')" id="bt1" class="boton">1</button>
+        <button onclick="gato('bt2')" id="bt2" class="boton">2</button>
+        <button onclick="gato('bt3')" id="bt3" class="boton">3</button>
+    </div>
+    <br>
+    <div class="botones">
+        <button onclick="gato('bt4')" id="bt4" class="boton">4</button>
+        <button onclick="gato('bt5')" id="bt5" class="boton">5</button>
+        <button onclick="gato('bt6')" id="bt6" class="boton">6</button>
+    </div>
+    <br>
+    <div class="botones">
+        <button onclick="gato('bt7')" id="bt7" class="boton">7</button>
+        <button onclick="gato('bt8')" id="bt8" class="boton">8</button>
+        <button onclick="gato('bt9')" id="bt9" class="boton">9</button>
+    </div>
+    
+    <div>
+        <p id="resultado"> </p>
+    </div>
+
+    <button class="volj" onclick="on()" id="volver">Volver a jugar</button>
+    </center>
+
+</body>
+</html>

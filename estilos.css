@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.boton{
+    text-decoration: none;
+    padding: 28px;
+    font-size: 30px;
+    color: #ffffff;
+    background: #7db9f1;
+    border-radius: 15px;
+    border: none;
+}
+.volj{
+    font-size: 20px;
+    border: none;
+    color: rgb(0, 57, 95);
+    background-color: #71a7ee;
+    padding: 8px;
+    bottom: disabled;
+    border-radius: 8px;
+}
+
+p{
+    font-size: 20px;
+}
